@@ -1,6 +1,6 @@
 [package]
 name = "geocoder-abbreviations"
-version = "4.1.9"
+version = "4.2.0"
 license = "MIT"
 description = "Geocoding Abbreviations classified by language and type"
 authors = [
