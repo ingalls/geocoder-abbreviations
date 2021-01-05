@@ -232,6 +232,15 @@
     },
     {
         "tokens": [
+            "alc",
+            "alcalde"
+        ],
+        "full": "alcalde",
+        "canonical": "alc",
+        "onlyCountries": ["es"]
+    },
+    {
+        "tokens": [
             "Andad",
             "Andador"
         ],
@@ -517,16 +526,43 @@
     },
     {
         "tokens": [
+            "cer",
+            "cda",
+            "cerrada"
+        ],
+        "full": "cerrada",
+        "canonical": "cer",
+        "type": "way",
+        "onlyCountries": ["es"]
+    },
+    {
+        "tokens": [
+            "C",
+            "Ca",
             "Cl",
             "Cll",
+            "Call",
             "Calle",
-            "Carrer",
-            "Carrera"
+            "Carrer"
         ],
         "full": "Calle",
         "canonical": "Cl",
         "onlyLayers": ["address"],
         "note": "translates to 'street' ('carrer' is Catalan)",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "kr",
+            "kra",
+            "cr",
+            "cra",
+            "carr",
+            "carra",
+            "carrera"
+        ],
+        "full": "carrera",
+        "canonical": "cr",
         "type": "way"
     },
     {
@@ -602,14 +638,6 @@
         ],
         "full": "Costera",
         "canonical": "Coste"
-    },
-    {
-        "tokens": [
-            "Cra",
-            "Carrera"
-        ],
-        "full": "Carrera",
-        "canonical": "Cra"
     },
     {
         "tokens": [
@@ -738,6 +766,7 @@
     },
     {
         "tokens": [
+            "d",
             "de"
         ],
         "full": "de",
@@ -746,10 +775,10 @@
     },
     {
         "tokens": [
-            "den"
+            "en"
         ],
-        "full": "den",
-        "canonical": "den",
+        "full": "en",
+        "canonical": "en",
         "type": "determiner",
         "note": "to handle d'en"
     },
@@ -763,11 +792,28 @@
     },
     {
         "tokens": [
+            "div",
+            "divina"
+        ],
+        "full": "divina",
+        "canonical": "div"
+    },
+    {
+        "tokens": [
             "ds"
         ],
         "full": "ds",
         "canonical": "ds",
         "type": "way"
+    },
+        {
+        "tokens": [
+            "dr",
+            "doctor"
+        ],
+        "full": "dr",
+        "canonical": "doctor",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -950,11 +996,13 @@
     },
     {
         "tokens": [
+            "G",
             "Gta",
             "Glorieta"
         ],
         "full": "Glorieta",
-        "canonical": "Gta"
+        "canonical": "Gta",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -974,10 +1022,30 @@
     },
     {
         "tokens": [
+            "K",
+            "Kalea",
+            "Karrika"
+        ],
+        "full": "Karrika",
+        "canonical": "K",
+        "note": "translates to 'street' ('kalea' is Catalan)",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "L",
             "La"
         ],
         "full": "La",
         "canonical": "La",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Les"
+        ],
+        "full": "Les",
+        "canonical": "Les",
         "type": "determiner"
     },
     {
@@ -1062,6 +1130,15 @@
     },
     {
         "tokens": [
+            "N"
+        ],
+        "full": "N",
+        "canonical": "N",
+        "type": "determiner",
+        "note": "as part of a street n' (example: n'arai)"
+    },
+    {
+        "tokens": [
             "Ncleo",
             "Núcleo"
         ],
@@ -1111,13 +1188,18 @@
     {
         "tokens": [
             "Pl",
+            "Pz",
             "Pza",
             "Plza",
+            "Placa",
             "Plaça",
-            "Plaza"
+            "Plaza",
+            "Praza"
         ],
         "full": "Plaza",
-        "canonical": "Pl"
+        "canonical": "Pl",
+        "type": "way",
+        "note": "'Praza' is Glacian for square"
     },
     {
         "tokens": [
@@ -1137,6 +1219,7 @@
     },
     {
         "tokens": [
+            "P",
             "Po",
             "Ps",
             "Pso",
@@ -1160,10 +1243,15 @@
     {
         "tokens": [
             "Pque",
-            "Parque"
+            "Parque",
+            "Parq",
+            "Pq",
+            "Pqe"
         ],
         "full": "Parque",
-        "canonical": "Pque"
+        "canonical": "Pq",
+        "note": "translates to 'park'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1318,14 +1406,6 @@
     },
     {
         "tokens": [
-            "Rcon",
-            "Rincón"
-        ],
-        "full": "Rincón",
-        "canonical": "Rcon"
-    },
-    {
-        "tokens": [
             "Rd",
             "Ronda"
         ],
@@ -1342,6 +1422,30 @@
     },
     {
         "tokens": [
+            "rincón",
+            "rincon",
+            "rcon",
+            "rin",
+            "rncn",
+            "rncon"
+        ],
+        "full": "rincón",
+        "canonical": "rin",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "retorno",
+            "ret",
+            "rt"
+        ],
+        "full": "retorno",
+        "canonical": "rt",
+        "type": "way",
+        "note": "translates to 'return'"
+    },
+    {
+        "tokens": [
             "Rtda",
             "Rotonda"
         ],
@@ -1354,10 +1458,21 @@
     {
         "tokens": [
             "Ru",
+            "Rua",
             "Rúa"
         ],
         "full": "Rúa",
         "canonical": "Ru"
+    },
+    {
+        "tokens": [
+            "ruta",
+            "rta"
+        ],
+        "full": "ruta",
+        "canonical": "rta",
+        "note": "translates to 'route'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1444,7 +1559,8 @@
         "tokens": [
             "Tr",
             "Trva",
-            "Travesia"
+            "Travesia",
+            "Travessia"
         ],
         "full": "Travesia",
         "canonical": "Tr",
@@ -1547,15 +1663,6 @@
     },
     {
         "tokens": [
-            "GV",
-            "Gran Vía"
-        ],
-        "full": "Gran Vía",
-        "canonical": "GV",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
             "PI",
             "Pgind"
         ],
@@ -1596,5 +1703,14 @@
         "full": "y",
         "canonical": "y",
         "type": "determiner"
+    },
+    {
+        "tokens": [
+            "gv",
+            "gran via"
+        ],
+        "full": "gran via",
+        "canonical": "gv",
+        "spanBoundaries": 1
     }
 ]
