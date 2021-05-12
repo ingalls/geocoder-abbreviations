@@ -1,0 +1,43 @@
+[
+    {
+        "tokens": [
+            "körönd",
+            "krnd"
+        ],
+        "full": "körönd",
+        "canonical": "krnd",
+        "note": "translates to 'circle'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "körút",
+            "krt"
+        ],
+        "full": "körút",
+        "canonical": "krt",
+        "note": "translates to 'Boulevard'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "rakpart",
+            "rpt"
+        ],
+        "full": "rakpart",
+        "canonical": "rpt",
+        "note": "translates to 'quay'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "utca",
+            "ut",
+            "u"
+        ],
+        "full": "utca",
+        "canonical": "u",
+        "note": "translates to 'street'",
+        "type": "way"
+    }
+]

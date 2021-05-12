@@ -10,6 +10,33 @@
 
 # Version History
 
+## 4.6.8
+
+- :rocket: Token additions for Greece(EL), Croatia (HR), Bosnia and Herzegovina (BA) and Cyprus (CY).
+## 4.6.6
+
+- :rocket: Token additions for Bulgaria(BG).
+
+## 4.6.5
+
+- :rocket: Token additions for Latvia(LV).
+
+## 4.6.4
+
+- :rocket: Add elison support for Canada.
+
+## 4.6.3
+
+- :bug: Fix a regex bug in Romania(RO).
+
+## 4.6.2
+
+- :rocket: Token additions for Hungary(HU) and Romania(RO).
+
+## 4.6.1
+
+- :rocket: Token additions for Slovak(SK), Slovania(SI), Serbia(RS), Lithuania(LT), Hungary(HU).
+
 ## 4.6.0
 
 - :rocket: Token additions for Portuguese.
